@@ -4,6 +4,10 @@
               addUsingNamespaceToJuceHeader="1" jucerFormatVersion="1" companyName="Nokami">
   <MAINGROUP id="zKAHlC" name="LevelMeters">
     <GROUP id="{4018F19A-BFEF-998E-2BDD-31049F11E29E}" name="Source">
+      <GROUP id="{7BD2AB2F-2DF8-60FD-0156-935F943CC67F}" name="Components">
+        <FILE id="As2QrE" name="HorizontalMeter.h" compile="0" resource="0"
+              file="Source/HorizontalMeter.h"/>
+      </GROUP>
       <FILE id="QVTlJW" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="PT7Cjj" name="PluginProcessor.h" compile="0" resource="0"

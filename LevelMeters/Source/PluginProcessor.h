@@ -1,18 +1,7 @@
-/*
-  ==============================================================================
-
-    This file contains the basic framework code for a JUCE plugin processor.
-
-  ==============================================================================
-*/
-
 #pragma once
 
 #include <JuceHeader.h>
 
-//==============================================================================
-/**
-*/
 class LevelMetersAudioProcessor  : public juce::AudioProcessor
 {
 public:
@@ -55,5 +44,6 @@ public:
 
 private:
     //==============================================================================
+    float RMSLevelLeft, RMSLevelRight;
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (LevelMetersAudioProcessor)
 };
